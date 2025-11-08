@@ -13,3 +13,7 @@ BenchmarkPBV-12           383847              3111 ns/op
 PASS
 ok      github.com/rshdhere/pointers    2.803s
 ```
+
+```bash
+go tool compile -N -S -l ptr.go
+```
